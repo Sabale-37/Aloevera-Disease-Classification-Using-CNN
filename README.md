@@ -1,5 +1,3 @@
-Of course! Here's a structured README file for your Aloe Vera Disease Classification project:
-
 ---
 
 # 🌿 Aloe Vera Disease Classification Project
