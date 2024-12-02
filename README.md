@@ -65,7 +65,7 @@ The dataset contains **9000 images** categorized into three classes:
 
 3. **Run the Flask app**:
    ```bash
-   python app.py
+   python main.py
    ```
 
 4. **Open the web interface**:
