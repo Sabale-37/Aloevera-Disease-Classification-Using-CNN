@@ -55,7 +55,7 @@ The dataset contains **9000 images** categorized into three classes:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Sabale-37/Aloevera-Disease-Classification-Using-CNN
-   cd aloevera-disease-classification
+   cd Aloevera-Disease-Classification-Using-CNN
    ```
 
 2. **Install dependencies**:
