@@ -1,6 +1,3 @@
-# =============================
-# Import Libraries
-# =============================
 from flask import Flask, render_template, request, url_for
 import numpy as np
 import os
@@ -10,7 +7,7 @@ from tensorflow.keras.models import load_model
 # =============================
 # Load the Model
 # =============================
-MODEL_PATH = os.path.join(os.path.dirname(__file__), 'aloe_vera_model.h5')  # Update this path if needed
+MODEL_PATH = os.path.join(os.path.dirname(_file_), 'aloe_vera_model.h5')  # Update this path if needed
 model = load_model(MODEL_PATH)
 print("Model Loaded Successfully")
 
@@ -44,7 +41,7 @@ def predict_aloe_disease(image_path):
 # =============================
 # Flask App Initialization
 # =============================
-app = Flask(__name__)
+app = Flask(_name_)
 
 # =============================
 # Home Route
@@ -88,5 +85,6 @@ def predict():
 # =============================
 # Main Execution
 # =============================
-if __name__ == "__main__":
-    app.run(debug=True, threaded=False, port=8080)
+if _name_ == "_main_":
+    port = int(os.environ.get("PORT", 8080))
+    app.run(host="0.0.0.0", port=port)
