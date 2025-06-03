@@ -1,8 +1,9 @@
+Werkzeug
 Flask
-TensorFlow
-Keras
+tensorflow
+keras
 Scikit-Learn
 Pandas
 NumPy
 Matplotlib
-
+gunicorn
