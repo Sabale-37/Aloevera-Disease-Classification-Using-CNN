@@ -10,7 +10,7 @@ from tensorflow.keras.models import load_model
 # =============================
 # Load the Model
 # =============================
-MODEL_PATH = 'D:/Projects/Medicinal-Plant-Diseases-Detection/aloe_vera_model.h5'  # Update this path if needed
+MODEL_PATH = os.path.join(os.path.dirname(__file__), 'aloe_vera_model.h5')  # Update this path if needed
 model = load_model(MODEL_PATH)
 print("Model Loaded Successfully")
 
