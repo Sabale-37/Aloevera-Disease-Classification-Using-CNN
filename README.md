@@ -98,7 +98,13 @@ The dataset contains **9000 images** categorized into three classes:
 ---
 
 ## 🤝 Contribution
-Contributions are welcome! Feel free to fork this repository, submit issues, or pull requests.
+
+Contributions are welcome! Feel free to **fork this repository**, submit **issues**, or open **pull requests** to improve the project.
+
+### 👥 Contributors
+- [Rahul](https://github.com/Rahullll101)
+- [Chandan](https://github.com/28Chandan)
+
 
 ---
 
