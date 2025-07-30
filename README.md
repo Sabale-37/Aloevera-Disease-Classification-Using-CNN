@@ -97,8 +97,12 @@ The dataset contains **9000 images** categorized into three classes:
 
 ---
 
-## 🤝 Contribution
-Contributions are welcome! Feel free to fork this repository, submit issues, or pull requests.
+
+### 👥 Contributors
+
+[![Rahul](https://img.shields.io/badge/GitHub-Rahullll101-blue?logo=github)](https://github.com/Rahullll101)
+[![Chandan](https://img.shields.io/badge/GitHub-28Chandan-blue?logo=github)](https://github.com/28Chandan)
+
 
 ---
 
